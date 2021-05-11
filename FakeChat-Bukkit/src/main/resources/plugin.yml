@@ -1,0 +1,16 @@
+name: FakeChat
+version: ${version}
+main: com.eloli.fakechat.bukkit.BukkitLoader
+authors:
+  - InkerBot
+description: Replace player's chat
+website: https://mohistmc.com/
+commands:
+  fakechat:
+    description: Admin fakechat
+    usage: |
+      /fakechat reload
+      /fakechat put <name> <replacement> <replacself>
+      /fakechat remove <name>
+    aliases: []
+    permission: fakechat.admin
